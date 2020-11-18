@@ -1,0 +1,12 @@
+
+@import './variables/variables';
+
+//PAGES IMPORTS
+@import './pages/index';
+@import './pages/about';
+
+//COMPONENTS IMPORTS
+// @import './components/header.module.scss';
+@import './components/layout.module.scss';
+@import './components/header';
+@import './components/footer.module.scss';

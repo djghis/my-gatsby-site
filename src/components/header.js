@@ -3,7 +3,7 @@ import React from "react"
 
 
 // import './header.module.scss'
-import headerStyles from './header.module.scss'
+// import headerStyles from '../styles/components/header.module.scss'
 
 const Header = () => {
   const data = useStaticQuery(graphql`
@@ -18,18 +18,18 @@ const Header = () => {
   
   `)
   return (
-  <header className={headerStyles.header}>
+  <header className="header">
     <h1>
-      <Link className={headerStyles.title} to='/'>
+      <Link className="title" to='/'>
       {data.site.siteMetadata.title}
       </Link>
     </h1>
     <nav>
-      <ul className={headerStyles.navList}>
-        <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/">Home</Link></li>
-        <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  to="/about">About Me</Link></li>
-        <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  to="/contact">Contact Me</Link></li>
-        <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  to="/blog">My blog</Link></li>
+      <ul className="nav-list">
+        <li><Link className="nav-item" activeClassName="active-nav-item" to="/">Home</Link></li>
+        <li><Link className="nav-item" activeClassName="active-nav-item"  to="/about">About Me</Link></li>
+        <li><Link className="nav-item" activeClassName="active-nav-item"  to="/contact">Contact Me</Link></li>
+        <li><Link className="nav-item" activeClassName="active-nav-item"  to="/blog">My blog</Link></li>
       </ul>
     </nav>
   </header>

@@ -1,8 +1,9 @@
 import React from 'react'
 import Header from './header'
 import Footer from './footer'
-import '../styles/index.scss'
-import layoutStyles from './layout.module.scss'
+// import '../styles/pages/_index.scss'
+import '../styles/styles.scss'
+import layoutStyles from '../styles/components/layout.module.scss';
 
 
 
