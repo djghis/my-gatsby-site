@@ -2,6 +2,7 @@ import React from 'react'
 
 import Layout from '../components/layout'
 import Head from '../components/head'
+import ContactForm from '../components/contact-form'
 
 
 const ContactPage = () => {
@@ -15,6 +16,8 @@ const ContactPage = () => {
             <br></br>
             <p>You can also email me by clicking on ht elibk below (It should open a new email in your favorite email client.)</p>
             <a href="mailto:djghis@hotmail.com?subject=`Business oportunity`" target="_blank"> djghis@hotmail.com</a>
+            <p>You can also use the contact form below and I will get back to you as soon as I can.</p>
+            <ContactForm/>
         </Layout>
          
     )
