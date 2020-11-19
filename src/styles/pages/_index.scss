@@ -9,6 +9,9 @@ html {
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background: url("../images/background-funkyFrog.jpeg") no-repeat center fixed;
+    background-size: cover;
+  
   }
   article,
   aside,
@@ -44,6 +47,7 @@ html {
   a {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
+    color: white;
   }
   a:active,
   a:hover {
@@ -65,6 +69,7 @@ html {
   h1 {
     font-size: 2em;
     margin: 0.67em 0;
+
   }
   mark {
     background-color: #ff0;
@@ -231,7 +236,7 @@ html {
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.45rem;
-    color: inherit;
+    color: white;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
       Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-weight: bold;
@@ -248,7 +253,7 @@ html {
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.45rem;
-    color: inherit;
+    color: white;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
       Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-weight: bold;
@@ -387,6 +392,7 @@ html {
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.45rem;
+    color: $white;
   }
   figure {
     margin-left: 0;
@@ -540,6 +546,7 @@ html {
   }
   li > p {
     margin-bottom: calc(1.45rem / 2);
+    color: white;
   }
   code {
     font-size: 0.85rem;
@@ -623,6 +630,4 @@ html {
     }
   }
 
-  .try1 {
-    color: $blue;
-  }
+  

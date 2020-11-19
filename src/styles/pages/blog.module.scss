@@ -9,7 +9,7 @@
 
     a {
         background: #f4f4f4;
-        color: #000000;
+        color: white;
         display: block;
         padding: 1rem;
         text-decoration: none;
@@ -21,9 +21,12 @@
 
     h2 {
         margin-bottom: 0;
+        color: black;
     }
+    
     p {
-        color: #777777;
+        // color: #777777;
+        color: white;
         font-size: .8rem;
         font-style: italic;
     }

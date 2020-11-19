@@ -5,6 +5,8 @@ import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import Layout from '../components/layout'
 import Head from '../components/head'
 
+// USED for MD files saved in project instead of  CONTENTFUL
+
 // export const query = graphql`
 // query ($slug: String!) {
 //     markdownRemark (
