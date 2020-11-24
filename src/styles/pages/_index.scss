@@ -9,8 +9,18 @@ html {
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: url("../images/background-funkyFrog.jpeg") no-repeat center fixed;
-    background-size: cover;
+    background: black url("../images/background-funkyFrog.jpeg") no-repeat center center fixed; 
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -o-background-size:contain;
+    background-size:contain;
+    // background: url("../images/background-funkyFrog.jpeg") no-repeat center fixed;
+    // background: url("../images/background-funkyFrog.jpeg");
+    // background-size: cover;
+    // background-size: 80vh 80vw;
+    // background-position: top;
+    // background-repeat: no-repeat;
+  
   
   }
   article,
@@ -624,6 +634,11 @@ html {
   pre tt:after {
     content: "";
   }
+
+  .no-decoration {
+    text-decoration: none;
+  }
+
   @media only screen and (max-width: 480px) {
     html {
       font-size: 100%;

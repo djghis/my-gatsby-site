@@ -33,7 +33,7 @@ input[type=text],input[type=email], textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    background-color:$green;
+    background-color:$greenS;
 }
 
 /* Add styles to show 'focus' of selector */
@@ -46,7 +46,7 @@ button[type=submit],
 input[type=reset] {
   font-family: 'Anahaw';
 	background:$green;
-	margin: 0 auto;
+	margin: 0 20px;
 	outline: 0;
 	color: rgb(49, 42, 42);
 	border: 0;
@@ -61,14 +61,15 @@ input[type=reset] {
 /* Add styles for 'focus' property */
 button[type=submit]:focus,
 input[type=reset]:focus {
-	background:$green;
+	background:$greenS;
 	color: whitesmoke;
 }
 
 /* Style 'hover' property */
 button[type=submit]:hover,
 input[type=reset]:hover {
-	background: $green;
+	background: $greenS;
+	
 }
 
 /* Align items to center of the 'div' with the class 'center' */

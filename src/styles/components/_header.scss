@@ -15,7 +15,7 @@
 }
 
 .nav-item {
-    color: #999999;
+    color: $white;
     font-size: .9rem;
     margin-right: 1.3rem;
     text-decoration: none;
@@ -25,5 +25,5 @@
 }
 
 .active-nav-item {
-    color: #333333;
+    color: #afaaaa;
 }
